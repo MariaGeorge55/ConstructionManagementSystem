@@ -7,6 +7,7 @@ class ContractManagerController extends controller{
      throw new Exception ("number should be greater than 0!");
 
      }
+     //ay batekh
 public function insertcontract(){
 
   $downpayement=$_REQUEST['downpayment'];//
