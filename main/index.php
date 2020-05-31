@@ -62,7 +62,7 @@ session_start();
           <li class="active"><a href="#header">Home</a></li>
           <li><a href="<?php echo  $_SESSION['page'];  ?>"><?php echo $_SESSION['pagename'];?> </a></li>
               <li><a href="#contact">Contact Us</a></li>
-              <li><a href="Logout.php">Log Out</a></li>
+              <li><a href="logout.php">Log Out</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
